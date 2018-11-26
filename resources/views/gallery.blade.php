@@ -7,7 +7,9 @@
 body {
   font-family: sans-serif;
 }
-
+.call-to-action-area {
+    height: auto;
+}
 /* ---- button ---- */
 
 .button {

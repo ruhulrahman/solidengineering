@@ -16,7 +16,7 @@
 
                             <img src="{{ asset('public') }}/img/bg-img/footer.jpg" alt="">
                             <div class="footer-logo my-4">
-                                <img src="{{ asset('public') }}/img/core-img/logo.png" alt="">
+                                <img src="{{ asset('public') }}/img/core-img/logo-bg.png" alt="">
                             </div>
                             <h4 style="color: #FFF">Civil Engineering Solution</h4>
                             <p style="text-align: justify;">At Solid Engineering works we understand how important it is to invest time in getting to know you and your business so we can deliver a truly innovating design and build solution for your workplace. Our team will accompany you right through the project timeline, ensure your vision is delivered to meet your expectations on-time and on budget. We are committed to forging long-term partnerships with our clients, creating robust, flexible solutions which will address the changing needs of your future.</p>
@@ -98,7 +98,7 @@
         <!-- Copywrite Text -->
         <div class="copywrite-text d-flex align-items-center justify-content-center">
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> Solid Engineering <i class="fa fa-heart-o" aria-hidden="true"></i> developed by <a href="https://www.facebook.com/Ruhul14.02" target="_blank">Ruhul Amin</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Solid Engineering <i class="fa fa-heart-o" aria-hidden="true"></i> developed by <a href="https://www.facebook.com/Ruhul14.02" target="_blank" class="developer">Ruhul Amin</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
         </div>
     </footer>

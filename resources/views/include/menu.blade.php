@@ -2,7 +2,7 @@
 
                     <!-- Logo -->
                     <a class="nav-brand" href="{{ url('/') }}">
-                        <img src="{{ asset('public') }}/img/core-img/logo.png" alt="Solid Eng. Logo">
+                        <img src="{{ asset('public') }}/img/core-img/logo-main.png" alt="Solid Eng. Logo">
                     </a>
 
                     <!-- Navbar Toggler -->

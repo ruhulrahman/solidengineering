@@ -1785,10 +1785,12 @@ img {
 .single-cool-fact-area h2 {
   font-size: 60px;
   margin: 15px 0;
-  color: #947054; }
+  color: #947054; 
+}
 .single-cool-fact-area h6 {
   margin-bottom: 0;
-  color: #7d7d7d; }
+  color: #7d7d7d; 
+}
 
 /*# sourceMappingURL=style.css.map */
 
@@ -1853,9 +1855,7 @@ img {
   height: 260px !important;;
 }
 
-.call-to-action-area {
-    height: auto;
-}
+
 .element-item{
   width: 325px !important;
   height: auto !important;
@@ -1865,4 +1865,16 @@ img {
   max-width: 80%;
   margin: auto;
   text-align: center;
+}
+.nav-brand img{
+  padding: 5px;
+  border-radius: 5px;
+  height: 70px;
+}
+.map iframe{
+  width: 100%;
+  height: 500px;
+}
+a.developer{
+  color: red !important;
 }

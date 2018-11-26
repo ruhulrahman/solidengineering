@@ -15,6 +15,7 @@
 //     return view('welcome');
 // });
 
+//Get Methods of LayoutController============================================
 Route::get('/', 'LayoutController@index');
 Route::get('/services', 'LayoutController@services');
 Route::get('/strategry', 'LayoutController@strategry');
@@ -22,3 +23,6 @@ Route::get('/vision', 'LayoutController@vision');
 Route::get('/gallery', 'LayoutController@gallery');
 Route::get('/about-us', 'LayoutController@about_us');
 Route::get('/contact', 'LayoutController@contact');
+
+//Post Methods of LayoutController ===========================================
+Route::get('/send-mail', 'LayoutController@sendMail');

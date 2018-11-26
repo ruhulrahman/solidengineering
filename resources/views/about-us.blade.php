@@ -23,7 +23,7 @@
                     <div class="single-team-member mb-100 wow fadeInUp" data-wow-delay="250ms">
                         <!-- Team Member Thumb -->
                         <div class="team-member-thumb">
-                            <img src="{{ asset('public') }}/img/bg-img/team2.jpg" alt="">
+                            <img src="{{ asset('public') }}/img/bg-img/rashida.jpg" alt="">
                         </div>
                         <!-- Team Member Info -->
                         <div class="team-member-info">

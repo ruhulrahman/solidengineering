@@ -161,7 +161,7 @@
 
         <!-- Editor Thumbnail -->
         <div class="editor-thumbnail">
-            <img src="{{ asset('public') }}/img/bg-img/editor.jpg" alt="">
+            <img src="{{ asset('public') }}/img/bg-img/rashida.jpg" alt="">
         </div>
     </section>
     <!-- ##### Editor Area End ##### -->

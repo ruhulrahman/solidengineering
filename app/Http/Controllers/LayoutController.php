@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Mail;
 
 class LayoutController extends Controller
 {
@@ -37,7 +38,14 @@ class LayoutController extends Controller
     }
 
     public function contact(){
-    	$content = view('contact');
-    	return view('index')->with('content', $content);
+        $content = view('contact');
+        return view('index')->with('content', $content);
+    }
+
+    public function sendMail(){
+    	Mail::send(['text' => 'mail'],['name' => 'Ruhul Amin'],function($message){
+            $message->to('soliddesignc@gmail.com','To Solid Engineering')->subject('Test Email');
+            $message->from('soliddesignc@gmail.com', 'Test from Ruhul');
+        });
     }
 }

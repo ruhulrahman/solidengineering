@@ -1,5 +1,7 @@
 @include('include/header')
+<style>
 
+</style>
         <!-- Main Header Area -->
         <div class="main-header-area" id="stickyHeader">
             <div class="classy-nav-container breakpoint-off">
